@@ -1,0 +1,7 @@
+Generation method: built-in imagegen; transparent_background=true.
+Reference images: the two user-supplied photos. Original photos are not included in this package.
+Project asset: assets/pet.png, embedded into the generated application as PiggyBuddy.pet.png.
+At runtime the application reads the left and right halves using WPF CroppedBitmap. The original PNG alpha is preserved.
+
+Prompt:
+Use case: stylized-concept. Asset type: Windows desktop pet transparent PNG sprite sheet. Both input photos are character references of the same person holding a pig plush. Create one wide sprite sheet with exactly TWO separate full-body chibi cartoon figures in a 2-column 1-row layout. Each figure entirely within its own equal half with generous transparent margins, matching size and baseline. Left pose: cute relaxed seated chibi girl hugging a round cream pig plush with a large pink snout and a coral bow, black chin-length bob and straight bangs, dark eyes, sweet subtle smile, cream sweater, modest dark trousers and shoes. Right pose: same girl and pig, happy alert pose lifting one arm waving while hugging pig with other arm. Preserve recognizable hairstyle and facial cues from BOTH references while simplifying into polished soft hand-painted 2D desktop mascot style. Soft warm cream and pink palette. Genuine transparent background, crisp smooth alpha silhouette edges. No floor, no scene, no panels, no labels, no text, no watermark. Exactly two complete figures side by side, no cropping. Intended to split at exact horizontal midpoint into two sprites.
